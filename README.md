@@ -3,4 +3,4 @@ The android app of caresteouvert.fr
 
 ## License
 
-This project is licensed under AGPL v3 terms - see the [LICENSE](LICENSE) file for details.
+This project is licensed under GPL v3 terms - see the [LICENSE](LICENSE) file for details.
