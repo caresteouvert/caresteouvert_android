@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Ça reste ouvert</string>
+  
+  <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
+  <string name="text_home_header">La carte collaborative\ndes lieux ouverts durant\nle confinement #Covid19</string>
+  <string name="text_home_paragraph_1">« Ça reste ouvert » est l’outil indispensable pour éviter les déplacements infructueux autour de chez vous durant le confinement et limiter ainsi le risque de contagion.</string>
+  <string name="text_home_paragraph_2">Elle vous permet de partager simplement les lieux ouverts ou fermés dans votre quartier.</string>
+  <string name="text_home_paragraph_3">C’est la manière la plus efficace et la plus solidaire pour informer au mieux vos voisins et les habitants de votre ville.</string>
+  <string name="a11y_the_application_logo">the application logo</string>
+  <string name="text_summary_leave_area">Lors de votre sortie\ndans votre quartier</string>
+  <string name="text_summary_header">Comment ça marche ?</string>
+  <string name="text_summary_visit_site"><![CDATA[Rendez-vous sur « ça reste ouvert » pour partager les lieux ouverts ou fermés dans votre quartier avec les habitants de votre quartier]]></string>
+  <string name="text_summary_discover_markets">Profitez-en pour remarquer quels sont les magasins ouverts ou fermés pendant le confinement</string>
+  <string name="text_summary_footer">Faites marcher\nl’intelligence collective !</string>
+  <string name="label_about_button">Comment ça marche ?</string>
+  <string name="illustration_icon">illustration icon</string>
+  <string name="label_summary_lets_start">C’est parti !</string>
+  <string name="permission_rationale">Si vous refusez cette autorisation, il est possible cela affecte certaines fonctionnalités de base.</string>
+  
+</resources>
