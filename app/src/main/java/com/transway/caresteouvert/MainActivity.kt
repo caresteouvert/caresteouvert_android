@@ -4,6 +4,7 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.content.DialogInterface
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.KeyEvent
@@ -15,15 +16,21 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 
+private const val REFERER_KEY = "Referral"
+private const val REFERER_VALUE = "appli-transway"
+private const val MOBILE_APP_QUERY_KEY = "fromapp"
+private const val MOBILE_APP_QUERY_VALUE = "t"
+private val headers = hashMapOf(Pair(REFERER_KEY, REFERER_VALUE))
+
 class MainActivity : AppCompatActivity() {
-  private val WEB_URL = "https://www.caresteouvert.fr"
-  private val REQUEST_PERMISSIONS_REQUEST_CODE = 38
+  companion object {
+    private const val WEB_URL = "https://www.caresteouvert.fr"
+    private const val REQUEST_PERMISSIONS_REQUEST_CODE = 38
+  }
 
-  lateinit var webView: WebView
-
+  private lateinit var webView: WebView
   private var mOrigin: String? = null
   private var mCallback: GeolocationPermissions.Callback? = null
-
 
   @SuppressLint("SetJavaScriptEnabled")
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,13 +50,16 @@ class MainActivity : AppCompatActivity() {
       useWideViewPort = true
       domStorageEnabled = true
       builtInZoomControls = true
+      userAgentString
       setGeolocationEnabled(true)
       javaScriptCanOpenWindowsAutomatically = true
     }
     webView.webViewClient = CustomWebViewClient()
     webView.webChromeClient = customWebChromeClient
-
-    webView.loadUrl(WEB_URL)
+    val uri = Uri.parse(WEB_URL).buildUpon()
+      .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
+      .build()
+    webView.loadUrl(uri.toString(), headers)
   }
 
   private val customWebChromeClient = object : WebChromeClient() {
@@ -117,7 +127,7 @@ class MainActivity : AppCompatActivity() {
     // request previously, but didn't check the "Don't ask again" checkbox.
     if (shouldProvideRationale) {
       showAlertDialog(R.string.permission_rationale,
-        android.R.string.ok, DialogInterface.OnClickListener { dialog, which ->
+        android.R.string.ok, DialogInterface.OnClickListener { _, _ ->
           // Request permission
           ActivityCompat.requestPermissions(
             this@MainActivity,
@@ -143,7 +153,6 @@ class MainActivity : AppCompatActivity() {
         grantResults.isEmpty() -> {
           // If user interaction was interrupted,
           // the permission request is cancelled and you receive empty arrays.
-          Log.i("TAG", "User interaction was cancelled.")
           mCallback?.invoke(mOrigin, false, false);
         }
         grantResults[0] == PackageManager.PERMISSION_GRANTED -> {
@@ -160,8 +169,12 @@ class MainActivity : AppCompatActivity() {
 }
 
 class CustomWebViewClient : WebViewClient() {
+
   override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-    view.loadUrl(url)
+    val uri = Uri.parse(url).buildUpon()
+      .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
+      .build()
+    view.loadUrl(uri.toString(), headers)
     return true
   }
 }
