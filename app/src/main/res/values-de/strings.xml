@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Bleibt offen</string>
+  
+  <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
+  <string name="text_home_header">Die gemeinsame Karte\naller Geschäfte,\ndie weiterhin geöffnet sind</string>
+  <string name="text_home_paragraph_1">\"Bleibt offen\" ist ein unverzichtbares Hilfsmittel, um erfolglose Wege zu geschlossenen Geschäften in deiner Umgebung zu vermeiden und so das Risiko einer Ansteckung zu verringern.</string>
+  <string name="text_home_paragraph_2">Sie ermöglicht es dir, die offenen Geschäfte in deiner Nachbarschaft ganz einfach zu finden.</string>
+  <string name="text_home_paragraph_3">Das ist der effektivste und solidaristische Weg, deine Nachbar*inne*n und die Bewohner*innen deiner Stadt bestens zu informieren. </string>
+  <string name="a11y_the_application_logo">das App-Logo</string>
+  <string name="text_summary_leave_area">Bei deinem nächsten Gang\ninvor die Haustür</string>
+  <string name="text_summary_header">Wie funktioniert das?</string>
+  <string name="text_summary_visit_site"><![CDATA[Schaut bei \" Bleibt offen \" vorbei, um die offenen und geschlossenen Geschäfte in deiner Nachbarschaft mit den Menschen in deiner Umgebung zu teilen]]></string>
+  <string name="text_summary_discover_markets">Nutze die Gelegenheit, um zu markieren, welche Geschäfte weiterhin geöffnet oder vorübergehend geschlossen sind.</string>
+  <string name="text_summary_footer">Bringt die gemeinsame\nIntelligenz zum Erfolg!</string>
+  <string name="label_about_button">Wie funktioniert das?</string>
+  <string name="illustration_icon">Icon zur Illustration</string>
+  <string name="label_summary_lets_start">Los geht\'s!</string>
+  <string name="permission_rationale">Wenn Sie diese Genehmigung nicht erteilen, beeinträchtigt dies möglicherweise bestimmte Grundfunktionen.</string>
+  
+</resources>
