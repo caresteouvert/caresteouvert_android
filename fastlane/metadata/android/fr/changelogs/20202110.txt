@@ -1,0 +1,2 @@
+## [1.0.4] - 2020-04-21
+- corrections de bugs et améliorations

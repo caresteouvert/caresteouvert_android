@@ -2,11 +2,12 @@ package com.transway.caresteouvert
 
 import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.DialogInterface
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.KeyEvent
 import android.webkit.GeolocationPermissions
 import android.webkit.WebChromeClient
@@ -14,17 +15,20 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.app.ActivityCompat
+
 
 private const val REFERER_KEY = "Referral"
 private const val REFERER_VALUE = "appli-transway"
 private const val MOBILE_APP_QUERY_KEY = "fromapp"
 private const val MOBILE_APP_QUERY_VALUE = "t"
+private const val SECURE_WEB_URL = "https://www.caresteouvert.fr"
+private const val NON_SECURE_WEB_URL = "http://www.caresteouvert.fr"
 private val headers = hashMapOf(Pair(REFERER_KEY, REFERER_VALUE))
 
 class MainActivity : AppCompatActivity() {
   companion object {
-    private const val WEB_URL = "https://www.caresteouvert.fr"
     private const val REQUEST_PERMISSIONS_REQUEST_CODE = 38
   }
 
@@ -35,6 +39,7 @@ class MainActivity : AppCompatActivity() {
   @SuppressLint("SetJavaScriptEnabled")
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+
     setContentView(R.layout.activity_main)
     if (!checkPermissions()) {
       requestPermissions()
@@ -54,12 +59,15 @@ class MainActivity : AppCompatActivity() {
       setGeolocationEnabled(true)
       javaScriptCanOpenWindowsAutomatically = true
     }
-    webView.webViewClient = CustomWebViewClient()
+    webView.webViewClient = CustomWebViewClient(this)
     webView.webChromeClient = customWebChromeClient
-    val uri = Uri.parse(WEB_URL).buildUpon()
+    val uri = Uri.parse(SECURE_WEB_URL).buildUpon()
       .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
       .build()
-    webView.loadUrl(uri.toString(), headers)
+
+    if (savedInstanceState == null) {
+      webView.loadUrl(uri.toString(), headers)
+    }
   }
 
   private val customWebChromeClient = object : WebChromeClient() {
@@ -75,6 +83,16 @@ class MainActivity : AppCompatActivity() {
         callback.invoke(origin, true, false)
       }
     }
+  }
+
+  override fun onSaveInstanceState(outState: Bundle) {
+    super.onSaveInstanceState(outState)
+    webView.saveState(outState)
+  }
+
+  override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+    super.onRestoreInstanceState(savedInstanceState)
+    webView.restoreState(savedInstanceState)
   }
 
   override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
@@ -168,13 +186,24 @@ class MainActivity : AppCompatActivity() {
   }
 }
 
-class CustomWebViewClient : WebViewClient() {
+class CustomWebViewClient(private val context: Context) : WebViewClient() {
 
   override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
     val uri = Uri.parse(url).buildUpon()
       .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
       .build()
-    view.loadUrl(uri.toString(), headers)
-    return true
+
+    return if (url.startsWith(SECURE_WEB_URL) || url.startsWith(NON_SECURE_WEB_URL)) {
+      view.loadUrl(uri.toString(), headers)
+      true
+    } else if (url.contains("http:") || url.startsWith("https:")) {
+      val tabsIntent = CustomTabsIntent.Builder().build()
+      tabsIntent.launchUrl(context, Uri.parse(url))
+      true
+    } else {
+      val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+      context.startActivity(intent)
+      true
+    }
   }
 }
