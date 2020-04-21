@@ -1,0 +1,25 @@
+Die Karte ist ein unverzichtbares Hilfsmittel, um erfolglose Wege zu geschlossenen Geschäften in deiner Umgebung zu vermeiden und so das Risiko einer Ansteckung zu verringern.
+Diese Gemeinschaftskarte ermöglicht es dir, die offenen und geschlossenen Orte in deiner Umgebung ganz einfach anonym mit wenigen Klicks zu teilen. Das ist der effektivste und solidaristische Weg, deine Nachbar*inne*n und die Bewohner*innen deiner Stadt bestens zu informieren.
+
+PRINZIP:
+Finde ein Geschäft in deiner Nähe (oder auch ganz woanders)
+Rot bedeutet: das Geschäft ist geschlossen.
+Grün bedeutet: das Geschäft ist weiterhin geöffnet. Finde die Öffnungszeiten und mehr
+Grau bedeutet: Offen oder geschlossen? Lass es uns wissen!
+
+OPENSTREETMAP:
+Unser ehrenamtliches Team ist entschlossen, einen dringenden Beitrag zur aktuellen Krise zu leisten. Wir sind alle leidenschaftliche OpenStreetMapper*innen.
+OpenStreetMap ist "die Wikipedia der Kartografie", eine weltweit vernetzte und selbstverwaltete Gemeinschaft, die Daten zur freien Verwendung erstellt. OpenStreetMap ist heutzutage die wohl meistgenutzte kartografische Datenbank der Welt.
+Hunderte von OpenStreetMapper*innen beteiligen sich ebenfalls an diesem Projekt : leider können wir sie nicht alle namentlich erwähnen. Ein großes Dankeschön an sie!
+
+--
+#StayHome #LeaveNoOneBehind #Ausgangsbeschränkungen
+Unverzichtbarer Dienst als mobile App, mobile Seite und für den Computer, in Deutschland, Schweiz und Österreich sowie darüber hinaus
+
+SOZIALE NETZWERKE:
+Twitter: @bleibtoffen_org
+Facebook : https://www.facebook.com/bleibtoffen
+Blog: www.bleibtoffen.org
+
+PARTNER:
+Wir danken unseren unverzichtbaren Technologiepartner, die uns großzügig unterstützen: Scalingo stellt die Infrastruktur zur Verfügung, MapTiler den Kartenhintergrund, Jawg Maps die Suche und Transway entwickelt die mobile App. Eine echte Teamleistung!
