@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Segue aberto</string>
+  
+  <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
+  <string name="text_home_header">O mapa colaborativo \nde lugares abertos \ndurante o confinamento #Covid19</string>
+  <string name="text_home_paragraph_1">« Segue aberto » é unha ferramenta indispensábel para evitar movementos innecesarios arredor do teu domicilio durante o confinamento, e polo tanto, limitar o risco de contaxio.</string>
+  <string name="text_home_paragraph_2">Permíteche compartir os lugares abertos ou pechados da túa zona</string>
+  <string name="text_home_paragraph_3">É o xeito máis efectivo e solidario de informar mellor ós teus veciños e residentes da túa zona.</string>
+  <string name="a11y_the_application_logo">o logotipo da aplicación</string>
+  <string name="text_summary_leave_area">Cando saes\ná túa veciñanza</string>
+  <string name="text_summary_header">De que xeito funciona?</string>
+  <string name="text_summary_visit_site"><![CDATA[Ir a  « segue aberto » para compartir as tendas abertas e pechadas que che arrodean]]></string>
+  <string name="text_summary_discover_markets">Aproveita a oportunidade para observar que tendas están abertas ou pechadas durante o confinamento</string>
+  <string name="text_summary_footer">Fai que a \nintelixencia colectiva funcione!</string>
+  <string name="label_about_button">De que xeito funciona?</string>
+  <string name="illustration_icon">icona da ilustración</string>
+  <string name="label_summary_lets_start">Imos aló!</string>
+  <string name="permission_rationale">Negar este permiso, é posíbel que afecte algunhas funcións básicas</string>
+  
+</resources>
