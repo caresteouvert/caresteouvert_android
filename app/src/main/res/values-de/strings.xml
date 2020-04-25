@@ -4,7 +4,7 @@
   <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
   <string name="text_home_header">Die gemeinsame Karte\naller Geschäfte,\ndie weiterhin geöffnet sind</string>
   <string name="text_home_paragraph_1">„Bleibt offen“ ist ein unverzichtbares Hilfsmittel, um erfolglose Wege zu geschlossenen Geschäften zu vermeiden und so das Risiko einer Ansteckung zu verringern.</string>
-  <string name="text_home_paragraph_2">Sie ermöglicht es dir, die offenen Geschäfte in deiner Nachbarschaft ganz einfach zu finden.</string>
+  <string name="text_home_paragraph_2">Die Karte ermöglicht es dir, offene Geschäfte in deiner Nachbarschaft ganz einfach zu finden und zu melden.</string>
   <string name="text_home_paragraph_3">Das ist der effektivste und solidaristische Weg, deine Nachbar*inne*n und die Bewohner*innen deiner Stadt bestens zu informieren. </string>
   <string name="a11y_the_application_logo">das App-Logo</string>
   <string name="text_summary_leave_area">Wenn du das nächste Mal\ndeine Wohnung verlässt</string>
