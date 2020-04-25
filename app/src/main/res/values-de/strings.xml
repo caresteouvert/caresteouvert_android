@@ -15,6 +15,6 @@
   <string name="label_about_button">Wie funktioniert das?</string>
   <string name="illustration_icon">Icon zur Illustration</string>
   <string name="label_summary_lets_start">Los geht\'s!</string>
-  <string name="permission_rationale">Wenn Sie diese Genehmigung nicht erteilen, beeinträchtigt dies möglicherweise bestimmte Grundfunktionen.</string>
+  <string name="permission_rationale">Wenn du diese Genehmigung nicht erteilst, beeinträchtigt dies möglicherweise bestimmte Grundfunktionen.</string>
   
 </resources>
