@@ -1,0 +1,25 @@
+O mapa indispensável para evitar movimentações desnecessárias perto de sua casa durante o confinamento, reduzindo assim o risco de contágio.
+Este mapa colaborativo permite compartilhar os lugares abertos e fechados no seu bairro durante o confinamento. É a maneira mais eficaz e solidária de informar os vizinhos e habitantes de sua cidade.
+
+INTRODUÇÃO
+Procure um lugar perto de sua casa (ou do outro lado do país)
+Vermelho: o lugar está fechado
+Verde: o lugar está aberto. Descubra o horário de funcionamento durante o confinamento e outras informações
+Cinza: aberto ou fechado? Você que nos diz!
+
+OPENSTREETMAP:
+Nossa equipe de voluntários está determinada a mobilizar-se com urgência para responder à crise sanitária atual. Todos nós somos colaboradores do OpenStreetMap.
+O OpenStreetMap é a "Wikipédia da cartografia", uma comunidade global  coordenada e auto-organizada, criando dados livremente utilizáveis. O OpenStreetMap é considerado atualmente como o banco de dados cartográficos mais abrangente do mundo.
+Centenas de colaboradores do OpenStreetMap também estão envolvidos no projeto. Agradecemos a todos eles!
+
+--
+#FiqueEmCasa #SejaSolidário #Confinamento
+O serviço está disponível como um aplicativo e um site, no Brasil e no exterior.
+
+REDES SOCIAIS:
+Twitter: @caresteouvert
+Facebook: Ça reste ouvert
+Blog: caresteouvert.fr/blog
+
+PARCERIAS
+Agradecemos aos nossos parceiros que fornecem serviços técnicos essenciais e nos apoiam graciosamente: Scalingo (infraestrutura), MapTiler (mapa base), Jawg Maps (geocodificador) e Transway (aplicativo). Um verdadeiro trabalho em equipe!
