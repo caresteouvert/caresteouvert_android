@@ -9,23 +9,25 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
 import android.view.KeyEvent
-import android.webkit.GeolocationPermissions
-import android.webkit.WebChromeClient
-import android.webkit.WebView
-import android.webkit.WebViewClient
+import android.webkit.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.app.ActivityCompat
+import java.util.*
 
 
 private const val REFERER_KEY = "Referral"
 private const val REFERER_VALUE = "appli-transway"
 private const val MOBILE_APP_QUERY_KEY = "fromapp"
 private const val MOBILE_APP_QUERY_VALUE = "t"
-private const val SECURE_WEB_URL = "https://www.caresteouvert.fr"
-private const val NON_SECURE_WEB_URL = "http://www.caresteouvert.fr"
-private val headers = hashMapOf(Pair(REFERER_KEY, REFERER_VALUE))
+
+private val headers =
+  hashMapOf(Pair(REFERER_KEY, REFERER_VALUE))
+
+private const val FRENCH_WEB_URL = "www.caresteouvert.fr"
+private const val GERMAN_WEB_URL = "www.bleibtoffen.de"
+private const val SPANISH_WEB_URL = "www.sigueabierto.es"
 
 class MainActivity : AppCompatActivity() {
   companion object {
@@ -61,7 +63,7 @@ class MainActivity : AppCompatActivity() {
     }
     webView.webViewClient = CustomWebViewClient(this)
     webView.webChromeClient = customWebChromeClient
-    val uri = Uri.parse(SECURE_WEB_URL).buildUpon()
+    val uri = Uri.parse(getLocalisedUrl()).buildUpon()
       .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
       .build()
 
@@ -186,6 +188,7 @@ class MainActivity : AppCompatActivity() {
   }
 }
 
+
 class CustomWebViewClient(private val context: Context) : WebViewClient() {
 
   override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
@@ -193,7 +196,7 @@ class CustomWebViewClient(private val context: Context) : WebViewClient() {
       .appendQueryParameter(MOBILE_APP_QUERY_KEY, MOBILE_APP_QUERY_VALUE)
       .build()
 
-    return if (url.startsWith(SECURE_WEB_URL) || url.startsWith(NON_SECURE_WEB_URL)) {
+    return if (url.startsWith(getLocalisedUrl()) || url.startsWith(getLocalisedUrl(secure = false))) {
       view.loadUrl(uri.toString(), headers)
       true
     } else if (url.contains("http:") || url.startsWith("https:")) {
@@ -205,5 +208,21 @@ class CustomWebViewClient(private val context: Context) : WebViewClient() {
       context.startActivity(intent)
       true
     }
+  }
+}
+
+fun getLocalisedUrl(secure: Boolean = true): String {
+  val localisedUrls = hashMapOf(
+    Pair("fr", FRENCH_WEB_URL),
+    Pair("de", GERMAN_WEB_URL),
+    Pair("es", SPANISH_WEB_URL)
+  )
+  val languageCode = Locale.getDefault().toString().split('_').first()
+  val baseUrl = localisedUrls[languageCode]
+
+  return if (!baseUrl.isNullOrEmpty()) {
+    if (secure) "https://${baseUrl}" else "http://${baseUrl}"
+  } else {
+    if (secure) "https://${FRENCH_WEB_URL}" else "http://${FRENCH_WEB_URL}"
   }
 }
