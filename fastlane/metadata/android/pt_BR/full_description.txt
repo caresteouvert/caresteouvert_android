@@ -4,7 +4,7 @@ Este mapa colaborativo permite compartilhar os lugares abertos e fechados no seu
 INTRODUÇÃO
 Procure um lugar perto de sua casa (ou do outro lado do país)
 Vermelho: o lugar está fechado
-Verde: o lugar está aberto. Descubra o horário de funcionamento durante o confinamento e outras informações
+Verde: o lugar está aberto. Descubra o horário de funcionamento durante o isolamento e outras informações
 Cinza: aberto ou fechado? Você que nos diz!
 
 OPENSTREETMAP:
@@ -13,7 +13,7 @@ O OpenStreetMap é a "Wikipédia da cartografia", uma comunidade global  coorden
 Centenas de colaboradores do OpenStreetMap também estão envolvidos no projeto. Agradecemos a todos eles!
 
 --
-#FiqueEmCasa #SejaSolidário #Confinamento
+#FiqueEmCasa #SejaSolidário #Isolamento
 O serviço está disponível como um aplicativo e um site, no Brasil e no exterior.
 
 REDES SOCIAIS:
