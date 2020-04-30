@@ -218,11 +218,25 @@ fun getLocalisedUrl(secure: Boolean = true): String {
     Pair("es", SPANISH_WEB_URL)
   )
   val languageCode = Locale.getDefault().toString().split('_').first()
+  val locale = Locale.getDefault().toString()
   val baseUrl = localisedUrls[languageCode]
-
+  println(Locale.getDefault().toString())
+  println(baseUrl)
   return if (!baseUrl.isNullOrEmpty()) {
     if (secure) "https://${baseUrl}" else "http://${baseUrl}"
   } else {
-    if (secure) "https://${FRENCH_WEB_URL}" else "http://${FRENCH_WEB_URL}"
+    val cookieManager = CookieManager.getInstance()
+    cookieManager.setAcceptCookie(true)
+
+    val secureUrl = "https://${FRENCH_WEB_URL}"
+    val nonSecureUrl = "http://${FRENCH_WEB_URL}"
+
+    if (secure) {
+      // cookieManager.setCookie(secureUrl, "lang=${locale}")
+      secureUrl
+    } else {
+      // cookieManager.setCookie(nonSecureUrl, "lang=${locale}")
+      nonSecureUrl
+    }
   }
 }
