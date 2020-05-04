@@ -10,7 +10,7 @@ En gris: ¿Abierto o cerrado? ¡Tú lo dices!
 OPENSTREETMAP:
 Nuestro equipo sin ánimo de lucro está determinado a movilizarse de urgencia para responder a la actual crisis sanitaria. Somos todos contribuidores apasionados de OpenStreetMap.
 OpenStreetMap es «la Wikipedia de los mapas», una comunidad mundial cordinada y autoorganizada, que crea datos libremente utilizables. OpenStreetMap está hoy considerado como la base de datos geográficos más exhaustiva del mundo.
-Centenares de contribuidores a OpenStreetMap intervienen de forma igualitaria en el proyecto: nos es imposible citarlos  de uno en uno. ¡Muchas gracias a todos y todas!
+Centenares de contribuidores a OpenStreetMap intervienen de forma igualitaria en el proyecto: nos es imposible citarlos  de uno en uno. ¡Muchas gracias a ellos!
 
 --
 #QuédateEnCasa #SeamosSolidarios #Confinamiento
