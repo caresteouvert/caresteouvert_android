@@ -9,7 +9,7 @@ En gris: ¿Abierto o cerrado? ¡Tú lo dices!
 
 OPENSTREETMAP:
 Nuestro equipo de voluntarios está determinado a movilizarse de urgencia para responder a la actual crisis sanitaria. Todos somos contribuidores apasionados de OpenStreetMap.
-OpenStreetMap es «la Wikipedia de los mapas», una comunidad mundial cordinada y autoorganizada, que crea datos libremente utilizables. OpenStreetMap está hoy considerado como la base de datos geográficos más exhaustiva del mundo.
+OpenStreetMap es «la Wikipedia de los mapas», una comunidad mundial coordinada y auto-organizada, que crea datos libremente utilizables. OpenStreetMap es actualmente considerada como la base de datos cartográfica más exhaustiva del mundo.
 Centenares de contribuidores a OpenStreetMap intervienen de forma igualitaria en el proyecto: nos es imposible citarlos  de uno en uno. ¡Muchas gracias a ellos!
 
 --
