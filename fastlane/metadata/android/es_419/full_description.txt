@@ -4,7 +4,7 @@ Este mapa colaborativo te permite compartir de forma sencilla los lugares abiert
 PRINCIPIO:
 Encuentra un lugar cerca de tu casa (o del otro lado del país)
 En rojo: el lugar esta cerrado
-En verde: el lugar está abierto. Descubra sus horarios de atención durante el confinamiento e información adicional
+En verde: el lugar está abierto. Descubra sus horarios de atención durante la cuarentena e información adicional
 En gris: ¿Abierto o cerrado? ¡Tú lo dices!
 
 OPENSTREETMAP:
