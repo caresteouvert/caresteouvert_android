@@ -24,12 +24,12 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/spacing_24"
         android:background="@drawable/rounded"
-        android:paddingTop="@dimen/spacing_16"
-        android:paddingBottom="@dimen/spacing_16"
         android:paddingLeft="@dimen/spacing_8"
+        android:paddingTop="@dimen/spacing_16"
         android:paddingRight="@dimen/spacing_8"
+        android:paddingBottom="@dimen/spacing_16"
         android:text="@string/text_home_header"
         android:textAlignment="center"
         android:textAllCaps="true"
@@ -37,6 +37,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
   
@@ -44,16 +45,16 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-medium"
         android:text="@string/text_home_paragraph_1"
         android:textAlignment="center"
         android:textColor="@color/colorText"
         android:textSize="@dimen/text_size_15"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-  
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
