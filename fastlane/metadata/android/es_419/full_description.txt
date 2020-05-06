@@ -22,4 +22,4 @@ Facebook : Ça reste ouvert
 Blog : caresteouvert.fr/blog/es/
 
 SOCIOS:
-Gracias a nuestros socios técnicos esenciales que nos apoyan amablemente: Scalingo proporciona la infraestructura, MapTiler el mapa base, Jawg Maps el geocodificador y Transway desarrolla la aplicación móvil. ¡Un verdadero esfuerzo de equipo!
+Gracias a nuestros socios técnicos esenciales que nos apoyan amablemente: Scalingo proporciona la infraestructura, MapTiler el mapa base, Jawg Maps el geocodificador y Transway desarrolla la aplicación móvil. ¡Un verdadero trabajo en equipo!
