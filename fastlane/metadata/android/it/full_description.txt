@@ -1,0 +1,25 @@
+La mappa indispensabile per evitare gli spostamenti inutili durante il lockdown e limitare il rischio di contagio.
+Questa mappa collaborativa ti permette di condividere i posti aperti e chiusi della tua città durante il lockdown in modo facile e veloce. Aiuta i tuoi concittadini e chi ti è vicino a restare informati.
+
+COME FUNZIONA:
+Cerca un posto vicino a te (o da qualunque altra parte d' Italia)
+Se è rosso il posto è chiuso
+Se è verde il posto è aperto. Scopri gli orari di apertura durante il lockdown e altre informazioni utili
+Se è grigio non si hanno informazioni a riguardo. In questo caso è aperto o chiuso?  Inserisci tu l' informazione!
+
+OPENSTREETMAP:
+La nostra squadra è composta da volontari pronti a rispondere alla crisi sanitaria in corso. Siamo tutti dei contributori attivi di OpenStreetMap.
+OpenStreetMap è "la Wikipedia delle mappe", una comunità mondiale coordinata e auto-organizzata dedita alla raccolta di dati aperti. OpenStreetMap è, ad oggi, considerata come il database di dati geografici aperti più grande al mondo.
+Centinaia di collaboratori inviano il proprio contributo su OpenStreetMap, così tanti che ci risulta impossibile menzionarli tutti. Un grande grazie va a loro!
+
+--
+#IoRestoaCasa #AndraTuttoBene
+Servizio disponibile via app e sul sito web per cellulari e computer, in Italia e all' estero.
+
+SOCIAL NETWORK:
+Twitter : @caresteouvert
+Facebook : Ça reste ouvert
+Blog : caresteouvert.fr/blog
+
+PARTNER:
+Grazie di cuore ai nostri indispensabili partner tecnici che ci sostengono: Scalingo per l' infrastruttura, MapTiler per la mappa grafica, Jwg Maps per il geocoder e Transway per lo sviluppo dell' applicazione. Questo sì che è un gioco di squadra!
