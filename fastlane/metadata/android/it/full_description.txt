@@ -4,7 +4,7 @@ Questa mappa collaborativa ti permette di condividere i posti aperti e chiusi de
 COME FUNZIONA:
 Cerca un posto vicino a te (o da qualunque altra parte d' Italia)
 Se è rosso il posto è chiuso
-Se è verde il posto è aperto. Scopri gli orari di apertura durante il lockdown e altre informazioni utili
+Se è verde il posto è aperto. Scopri gli orari di apertura durante il blocco e altre informazioni utili
 Se è grigio non si hanno informazioni a riguardo. In questo caso è aperto o chiuso?  Inserisci tu l' informazione!
 
 OPENSTREETMAP:
