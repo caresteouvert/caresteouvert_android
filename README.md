@@ -10,9 +10,9 @@ The android app of [caresteouvert.fr](https://www.caresteouvert.fr/)
      height="80">](https://f-droid.org/packages/com.transway.caresteouvert/)
 
 
-Download the latest [apk version [1.0.4]](https://www.dropbox.com/s/4n52zp7flplft0y/app-release.apk?dl=0)
+Download the latest [apk version [1.1.0]](https://www.dropbox.com/s/34hdx4ywmzu0g0r/app-release.apk?dl=0)
 
-https://www.dropbox.com/s/4n52zp7flplft0y/app-release.apk?dl=0
+https://www.dropbox.com/s/34hdx4ywmzu0g0r/app-release.apk?dl=0
 
 # Translation
 

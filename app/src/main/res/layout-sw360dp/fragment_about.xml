@@ -9,22 +9,25 @@
   <androidx.constraintlayout.widget.ConstraintLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent">
-    
+  
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_24"
+        android:layout_marginTop="@dimen/spacing_8"
+        android:layout_marginEnd="@dimen/spacing_24"
         android:contentDescription="@string/a11y_the_application_logo"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
-    
+  
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/spacing_24"
         android:background="@drawable/rounded"
         android:paddingTop="@dimen/spacing_16"
         android:paddingBottom="@dimen/spacing_16"
@@ -32,9 +35,10 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_size_20"
         android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
   
@@ -42,21 +46,21 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/spacing_32"
         android:fontFamily="sans-serif-medium"
         android:text="@string/text_home_paragraph_1"
         android:textAlignment="center"
         android:textColor="@color/colorText"
         android:textSize="@dimen/text_size_15"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
-  
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/spacing_24"
         android:fontFamily="sans-serif-medium"
         android:text="@string/text_home_paragraph_2"
         android:textAlignment="center"
@@ -70,7 +74,7 @@
         android:id="@+id/textView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/spacing_24"
         android:fontFamily="sans-serif-medium"
         android:text="@string/text_home_paragraph_3"
         android:textAlignment="center"
@@ -84,8 +88,8 @@
         android:id="@+id/button_more"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginTop="@dimen/spacing_24"
+        android:layout_marginBottom="@dimen/spacing_32"
         android:background="@color/colorYellow"
         android:text="@string/label_about_button"
         android:textColor="@color/colorText"
