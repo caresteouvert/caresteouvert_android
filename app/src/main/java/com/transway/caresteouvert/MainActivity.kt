@@ -17,7 +17,7 @@ import androidx.core.app.ActivityCompat
 import java.util.*
 
 
-private const val REFERER_KEY = "Referral"
+private const val REFERER_KEY = "X-Referer"
 private const val REFERER_VALUE = "appli-transway"
 private const val MOBILE_APP_QUERY_KEY = "fromapp"
 private const val MOBILE_APP_QUERY_VALUE = "t"
@@ -217,26 +217,12 @@ fun getLocalisedUrl(secure: Boolean = true): String {
     Pair("de", GERMAN_WEB_URL),
     Pair("es", SPANISH_WEB_URL)
   )
+  
   val languageCode = Locale.getDefault().toString().split('_').first()
-  val locale = Locale.getDefault().toString()
   val baseUrl = localisedUrls[languageCode]
-  println(Locale.getDefault().toString())
-  println(baseUrl)
   return if (!baseUrl.isNullOrEmpty()) {
     if (secure) "https://${baseUrl}" else "http://${baseUrl}"
   } else {
-    val cookieManager = CookieManager.getInstance()
-    cookieManager.setAcceptCookie(true)
-
-    val secureUrl = "https://${FRENCH_WEB_URL}"
-    val nonSecureUrl = "http://${FRENCH_WEB_URL}"
-
-    if (secure) {
-      // cookieManager.setCookie(secureUrl, "lang=${locale}")
-      secureUrl
-    } else {
-      // cookieManager.setCookie(nonSecureUrl, "lang=${locale}")
-      nonSecureUrl
-    }
+    if (secure) "https://${FRENCH_WEB_URL}" else "http://${FRENCH_WEB_URL}"
   }
 }
