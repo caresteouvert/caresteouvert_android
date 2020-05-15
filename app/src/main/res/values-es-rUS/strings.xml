@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Sigue abierto</string>
+  
+  <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
+  <string name="text_home_header">El mapa colaborativo \nde sitios abiertos \ndurante la cuarentena #Covid19</string>
+  <string name="text_home_paragraph_1">«Sigue abierto» es una herramienta esencial para evitar desplazamientos innecesarios cercanos a tu domicilio durante el confinamiento, y por lo tanto, limitar el riesgo de contagio.</string>
+  <string name="text_home_paragraph_2">Te permite compartir los sitios abiertos o cerrados de tu barrio.</string>
+  <string name="text_home_paragraph_3">Es la forma más eficaz y solidaria de mejor informar a todos tus vecinos y habitantes de tu ciudad.</string>
+  <string name="a11y_the_application_logo">el logo de la aplicación</string>
+  <string name="text_summary_leave_area">Cuando sales\nen tu vecindario</string>
+  <string name="text_summary_header">¿Cómo funciona?</string>
+  <string name="text_summary_visit_site"><![CDATA[Visita  « sigue abierto » para compartir los sitios abiertos o cerrados en tu barrio con tus vecinos]]></string>
+  <string name="text_summary_discover_markets">Aproveche la oportunidad para observar cuáles tiendas están abiertas o cerradas durante la cuarentena</string>
+  <string name="text_summary_footer">¡Has que la \ninteligencia colectiva funcione!</string>
+  <string name="label_about_button">¿Cómo funciona?</string>
+  <string name="illustration_icon">icono de ilustración</string>
+  <string name="label_summary_lets_start">¡Vamos!</string>
+  <string name="permission_rationale">Si niegas este permiso, es posible que afecte algunas funciones básicas.</string>
+  
+</resources>
