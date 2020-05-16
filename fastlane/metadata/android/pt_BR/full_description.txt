@@ -1,10 +1,10 @@
-O mapa indispensável para evitar movimentações desnecessárias perto de sua casa durante o isolamento, reduzindo assim o risco de contágio.
-Este mapa colaborativo permite compartilhar os lugares abertos e fechados no seu bairro durante o isolamento. É a maneira mais eficaz e solidária de informar os vizinhos e habitantes de sua cidade.
+Um mapa indispensável para evitar deslocamentos desnecessários perto de sua casa durante a crise sanitária, reduzindo assim o risco de contágio.
+Este mapa colaborativo permite compartilhar os lugares abertos e fechados em seu bairro. É a maneira mais eficaz e solidária de informar os vizinhos e habitantes de sua cidade.
 
 INTRODUÇÃO
 Procure um lugar perto de sua casa (ou do outro lado do país)
 Vermelho: o lugar está fechado
-Verde: o lugar está aberto. Descubra o horário de funcionamento durante o isolamento e outras informações
+Verde: o lugar está aberto. Descubra o horário de funcionamento durante a crise sanitária e outras informações
 Cinza: aberto ou fechado? Você que nos diz!
 
 OPENSTREETMAP:
@@ -12,14 +12,10 @@ Nossa equipe de voluntários está determinada a mobilizar-se com urgência para
 O OpenStreetMap é a "Wikipédia da cartografia", uma comunidade global  coordenada e auto-organizada, criando dados livremente utilizáveis. O OpenStreetMap é considerado atualmente como o banco de dados cartográficos mais abrangente do mundo.
 Centenas de colaboradores do OpenStreetMap também estão envolvidos no projeto. Agradecemos a todos eles!
 
---
-#FiqueEmCasa #SejaSolidário #Isolamento
-O serviço está disponível como um aplicativo e um site, no Brasil e no exterior.
-
 REDES SOCIAIS:
 Twitter: @caresteouvert
 Facebook: Ça reste ouvert
 Blog: caresteouvert.fr/blog
 
 PARCERIAS
-Agradecemos aos nossos parceiros que fornecem serviços técnicos essenciais e nos apoiam graciosamente: Scalingo (infraestrutura), MapTiler (mapa base), Jawg Maps (geocodificador) e Transway (aplicativo). Um verdadeiro trabalho em equipe!
+Agradecemos aos nossos parceiros que fornecem serviços técnicos essenciais e nos apoiam graciosamente: A associação OpenStreetMap France, que nos ajuda a manter o serviço, Scalingo (infraestrutura), MapTiler (mapa base), Jawg Maps (geocodificador), Transway (aplicativo) e Makina Corpus (assistência técnica). Um verdadeiro trabalho em equipe!
