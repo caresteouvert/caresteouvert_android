@@ -1,20 +1,16 @@
-El mapa imprescindible para evitar los desplazamientos innecesarios alrededor de tu domicilio durante la cuarentena y, por lo tanto, limitar el riesgo de contagio.
-Este mapa colaborativo te permite compartir fácilmente los sitios abiertos o cerrados de tu barrio durante la cuarentena. Es la forma más eficaz y solidaria de mejor informar a todos tus vecinos y habitantes de tu ciudad.
+El mapa esencial para evitar desplazamientos innecesarios cercanos a tu domicilio durante la cuarentena y, por lo tanto, limitar el riesgo de contagio.
+Este mapa colaborativo te permite compartir fácilmente los sitios abiertos o cerrados de tu barrio. Es la forma más eficaz y solidaria de mejor informar a todos tus vecinos y habitantes de tu ciudad.
 
 PRINCIPIO:
 Encuentra un sitio cerca de tu casa (o del otro lado del país)
 En rojo: el sitio esta cerrado
-En verde: el sitio está abierto. Descubra sus horarios de atención durante la cuarentena e información adicional
+Verde: El sitio está abierto. Identifica sus horarios de apertura durante la cuarentena, y otra cosas más.
 En gris: ¿Abierto o cerrado? ¡Tú lo dices!
 
 OPENSTREETMAP:
-Nuestro equipo de voluntarios está determinado a movilizarse de urgencia para responder a la actual crisis sanitaria. Todos somos contribuidores apasionados de OpenStreetMap.
+Nuestro equipo está determinado a movilizarse de emergencia para responder a la actual crisis sanitaria. Todos nosotros somos colaboradores apasionados de OpenStreetMap.
 OpenStreetMap es "la Wikipedia de los mapas", una comunidad mundial coordinada y auto-organizada, que crea datos libremente utilizables. OpenStreetMap es actualmente considerada como la base de datos cartográfica más exhaustiva del mundo.
 Centenas de contribuidores de OpenStreetMap intervienen de forma igualitaria en el proyecto: nos es imposible citarlos a cada uno. ¡Muchas gracias a ellos!
-
---
-#QuédateEnCasa #SeamosSolidarios #Confinamiento
-Servicio disponible en aplicación para celular, sitio móvil y para computador, ya sea localmente o en el extranjero.
 
 REDES SOCIALES:
 Twitter : @caresteouvert
@@ -22,4 +18,4 @@ Facebook : Ça reste ouvert
 Blog : caresteouvert.fr/blog/es/
 
 SOCIOS:
-Gracias a nuestros socios técnicos esenciales que nos apoyan amablemente: Scalingo proporciona la infraestructura, MapTiler el mapa base, Jawg Maps el geocodificador y Transway desarrolla la aplicación móvil. ¡Un verdadero trabajo en equipo!
+Gracias a nuestros asociados técnicos que nos apoyan voluntariamente: OpenStreetMap France ayuda a mantener el servicio, Scalingo ofrece la infraestructura, MapTiler los teselas del mapa, Jawg Maps el geocodificador, Transway desarrolla la aplicación para celular y Makina Corpus ofrece su asistencia técnica. ¡Un verdadero trabajo de equipo!

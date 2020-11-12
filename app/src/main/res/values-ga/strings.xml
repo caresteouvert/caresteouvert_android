@@ -1,0 +1,20 @@
+<resources>
+  <string name="app_name">Táimid oscailte</string>
+  
+  <string name="preference_file_key">com.transway.caresteouvert.PREFERENCE_FILE_KEY</string>
+  <string name="text_home_header">An léarscáil chomhoibritheach de\náiteanna oscailte le linn\nsrianadh #Covid19</string>
+  <string name="text_home_paragraph_1">«Ça reste ouvert» est l’outil indispensable pour éviter les déplacements infructueux autour de chez vous durant le confinement et limiter ainsi le risque de contagion.</string>
+  <string name="text_home_paragraph_2">Ligeann sé duit áiteanna oscailte nó dúnta a roinnt i do chomharsanacht.</string>
+  <string name="text_home_paragraph_3">Is é an bealach is éifeachtaí agus aontaithe é chun do chomharsana agus áitritheoirí do chathair a chur ar an eolas.</string>
+  <string name="a11y_the_application_logo">an lógó feidhmchlár</string>
+  <string name="text_summary_leave_area">Nuair a théann tú amach\nchuig do chomharsanacht</string>
+  <string name="text_summary_header">Conas a oibríonn sé?</string>
+  <string name="text_summary_visit_site"><![CDATA[Téigh chuig « ça reste ouvert » chun na háiteanna oscailte nó dúnta i do chomharsanacht a roinnt le cónaitheoirí do chomharsanachta]]></string>
+  <string name="text_summary_discover_markets">Tapaigh an deis a thabhairt faoi deara na siopaí atá oscailte nó dúnta le linn coimeádta</string>
+  <string name="text_summary_footer">Déan obair\nchomhchoiteann faisnéise!</string>
+  <string name="label_about_button">Conas a oibríonn sé?</string>
+  <string name="illustration_icon">illustration icon</string>
+  <string name="label_summary_lets_start">Imímis!</string>
+  <string name="permission_rationale">Má dhiúltaíonn tú an cead seo, is féidir go mbeidh tionchar aige ar roinnt bunfheidhmiúlacht.</string>
+  
+</resources>
