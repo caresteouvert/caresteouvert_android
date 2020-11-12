@@ -15,8 +15,8 @@ android {
         applicationId "com.transway.caresteouvert"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 202005150
-        versionName "1.1.0"
+        versionCode 202011121
+        versionName "1.1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
