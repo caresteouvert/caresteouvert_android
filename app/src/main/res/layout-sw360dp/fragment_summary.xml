@@ -89,16 +89,17 @@
           app:layout_constraintEnd_toStartOf="@+id/guideline4"
           app:layout_constraintHorizontal_bias="0.0"
           app:layout_constraintStart_toEndOf="@+id/image_blind" />
+
       <ImageView
           android:id="@+id/image_place"
           android:layout_width="@dimen/spacing_52"
           android:layout_height="@dimen/spacing_52"
           android:contentDescription="@string/illustration_icon"
-          android:src="@drawable/ic_logo_place"
+          android:src="@drawable/logo"
           app:layout_constraintBottom_toBottomOf="@+id/text_place"
           app:layout_constraintStart_toStartOf="@+id/guideline3" />
-      
-      
+
+
       <TextView
           android:id="@+id/text_place"
           android:layout_width="0dp"
