@@ -27,7 +27,7 @@ private const val MOBILE_APP_QUERY_VALUE = "t"
 private val headers =
     hashMapOf(Pair(REFERER_KEY, REFERER_VALUE))
 
-private const val LYON_BASE_URL = "lyon.caresteouvert.fr/"
+private const val BASE_URL = "caresteouvert.fr/"
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -212,5 +212,5 @@ class CustomWebViewClient(private val context: Context) : WebViewClient() {
 }
 
 fun getUrl(secure: Boolean = true): String {
-    return if (secure) "https://${LYON_BASE_URL}" else "http://${LYON_BASE_URL}"
+    return if (secure) "https://${BASE_URL}" else "http://${BASE_URL}"
 }
